@@ -1,0 +1,270 @@
+/*extra small device*/
+
+@media(max-width:575px) {
+
+    .navbar-toggler:not(:disabled):not(.disabled) {
+        background: #77ba00;
+    }
+
+    .navbar {
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        background: #000;
+    }
+
+    #banner-part {
+        clip-path: none;
+    }
+
+    .banner-topic {
+        padding: 120px 0px;
+    }
+
+    .banner-write h3 {
+        font-size: 30px;
+    }
+
+    .banner-write h2 {
+        font-size: 22px;
+
+    }
+
+    .banner-write h4 {
+        font-size: 25px;
+    }
+
+    .banner-write h4::before {
+        width: 210px;
+    }
+
+    .banner-write h4::after {
+        width: 210px;
+    }
+
+    .common-btn {
+        padding: 05px 5px;
+        font-size: 16px;
+        margin: 10px;
+    }
+
+    .link {
+        top: 50%;
+        right: -10px;
+    }
+
+    .link ul li a i {
+        font-size: 12px;
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+    }
+    .mouse-icon {
+        height: 40px;
+        width: 25px;
+        border: 2px solid #fff;
+    }
+
+    .typer {
+        font-size: 26px;
+    }
+
+    .typed-cursor {
+        font-size: 25px;
+    }
+
+    .about-write h4 {
+        font-size: 15px;
+    }
+
+
+    .about-write {
+        padding-bottom: 10px;
+    }
+
+    .about-write button {
+        margin-bottom: 15px;
+    }
+
+    .skill-part {
+
+        padding-top: 20px;
+    }
+
+    #resume-part {
+        clip-path: none;
+    }
+
+    .tabs [class^="tab"] label,
+    .tabs [class*=" tab"] label {
+        font-size: 20px;
+
+    }
+
+    .resume-write h4 {
+        font-size: 20px;
+
+    }
+
+    .resume-write h5 {
+        font-size: 17px;
+
+    }
+
+    .resume-write h6 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    #counter-part {
+
+        clip-path: none;
+    }
+
+    #testimonial-part {
+        clip-path: none;
+    }
+
+    .story-topics {
+        margin-bottom: 20px;
+    }
+
+    .react ul li {
+        font-size: 12px;
+    }
+
+    .date {
+        right: 7px;
+
+    }
+
+    .story-topics p {
+        padding: 0px 20px;
+        padding-bottom: 05px;
+    }
+
+    #contact-part {
+        clip-path: none;
+
+    }
+
+    .contact-write {
+        margin-bottom: 10px;
+    }
+
+    .footer-link ul li a i {
+        margin: 0px 5px;
+    }
+
+
+}
+
+/*extra small device*/
+
+@media(min-width:576px)and (max-width:767px) {
+
+    .navbar-toggler:not(:disabled):not(.disabled) {
+        background: #77ba00;
+    }
+
+    .navbar {
+        line-height: 60px;
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        background: #000;
+    }
+
+    #banner-part {
+        clip-path: none;
+    }
+
+    .banner-write h2 {
+        font-size: 35px;
+    }
+
+    .about-write button {
+        margin-bottom: 15px;
+    }
+
+
+    #resume-part {
+        clip-path: none;
+    }
+
+    .resume-write h6 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    #counter-part {
+        clip-path: none;
+    }
+
+    .story-topics {
+
+        margin-bottom: 25px;
+    }
+
+    #testimonial-part {
+        clip-path: none;
+
+    }
+
+    #contact-part {
+        clip-path: none;
+
+    }
+}
+
+@media(min-width:768px)and (max-width:991px) {
+  .link {
+        top: 50%;
+        right: -10px;
+    }
+
+    .navbar-toggler:not(:disabled):not(.disabled) {
+        background: #77ba00;
+    }
+
+    .navbar {
+        line-height: 60px;
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        background: #000;
+    }
+
+    .about-write button {
+        margin-bottom: 15px;
+    }
+
+    .skill-part button {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .react ul li {
+        padding: 10px 3px;
+        font-size: 10px;
+    }
+
+    .react ul li i {
+        font-size: 10px;
+        padding-right: 3px;
+    }
+
+    .contact-write h4 {
+        font-size: 18px;
+    }
+
+    .contact-write h6 {
+        font-size: 12px;
+
+    }
+
+}
